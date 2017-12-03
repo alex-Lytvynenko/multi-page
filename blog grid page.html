@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Blog grid</title>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/lib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/blog-grid-page.css">
+</head>
+<body>
+
+<header class="main-header">
+    <div class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <form action="/search" class="search-form">
+                        <input type="text" class="search-field" placeholder="Search">
+                        <button class="fa fa-search search-button" type="button" aria-hidden="true"></button>
+                    </form>
+                </div>
+                <div class="col-sm-6">
+                    <nav class="nav users-nav">
+                        <a href="#" class="nav-link fa fa-user users-nav-link">Login</a>
+                        <a href="#" class="nav-link fa fa-pencil users-nav-link">Register</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <a class="main-logo" href="index.html">Amber</a>
+                </div>
+                <nav class="col-10 navbar navbar-toggleable-md">
+                    <button class="navbar-toggler sandwich-icon" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <nav class="navbar-nav ml-auto">
+                            <a class="menu-item" href="index.html">Home</a>
+                            <a class="menu-item" href="portfolio-grid.html">Portfolio</a>
+                            <a class="menu-item" href="02_blog%20grid.psd">Blog</a>
+                            <a class="menu-item" href="#">Pages</a>
+                            <a class="menu-item" href="#">Elements</a>
+                            <a class="menu-item" href="#">Ecommerce</a>
+                            <a class="menu-item" href="#">Mega Menu</a>
+                        </nav>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="blog-grid-header">
+    <div class="blog-grid-header_overlay"></div>
+    <div class="container">
+        <div class="row justify-content-between align-items-end blog-grid-header_height">
+            <div class="col-md-6">
+                <h2 class="blog-grid-header__title">Blog grid view</h2>
+                <footer class="blog-grid-header__statistic">
+                    <p class="blog-grid-header__statistic_data">
+                        <i class="fa fa-user blog-grid-header__statistic_data_icon" aria-hidden="true"></i>
+                        by Alex Poushkin
+                    </p>
+                    <p class="blog-grid-header__statistic_data">
+                        <i class="fa fa-clock-o blog-grid-header__statistic_data_icon" aria-hidden="true"></i>
+                        September 31
+                    </p>
+                    <p class="blog-grid-header__statistic_data">
+                        <i class="fa fa-quote-left blog-grid-header__statistic_data_icon" aria-hidden="true"></i>
+                        12 comments
+                    </p>
+                </footer>
+            </div>
+            <div class="com-md-6 ml-auto">
+                <nav class="blog-grid-header__nav">
+                    <a href="#" class="blog-grid-header__nav_link">Home</a>
+                    <a href="#" class="blog-grid-header__nav_link">Shortcodes</a>
+                    <a href="#" class="blog-grid-header__nav_link">Typography</a>
+                    <a href="#" class="blog-grid-header__nav_link">Blog</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog-grid_posts container">
+    <div class="row justify-content-between">
+        <div class="col-lg-4 col-md-6">
+            <figure class="blog-post-grid">
+                <img src="images/post-img-1(290_220).jpg" alt="post-image">
+                <figcaption>
+                    <h4><a href="Blog%20details%20page.html" class="blog-post-grid-title">This blog post leads to the blog details page</a></h4>
+                    <p class="blog-post-grid-srt-desc">Her father worked on oil rigs and farms that through most of the Depression. But it is a new story that has seared into my genetic.</p>
+                    <div class="row justify-content-between">
+                        <div class="col-6">
+                            <a href="Blog%20details%20page.html" class="blog-post-grid-link">Learn more</a>
+                        </div>
+                        <div class="col-6">
+                            <p class="blog-post-grid-comments">
+                                <a href="#" class="blog-post-grid-comments-link fa fa-comment" aria-hidden="true"></a>
+                                <span class="blog-post-grid-comment-count">450</span>
+                            </p>
+                        </div>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <figure class="blog-post-grid">
+                <img src="images/post-img-2(290_220).jpg" alt="post-image">
+                <figcaption>
+                    <h4><a href="#" class="blog-post-grid-title">Runway to Red Carpet:<br> Awards Season</a></h4>
+                    <p class="blog-post-grid-srt-desc">Her father worked on oil rigs and farms that through most of the Depression. But it is a new story that has seared into my genetic.</p>
+                    <div class="row justify-content-between">
+                        <div class="col-6">
+                            <a href="#" class="blog-post-grid-link">Learn more</a>
+                        </div>
+                        <div class="col-6">
+                            <p class="blog-post-grid-comments">
+                                <a href="#" class="blog-post-grid-comments-link fa fa-comment" aria-hidden="true"></a>
+                                <span class="blog-post-grid-comment-count">450</span>
+                            </p>
+                        </div>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <figure class="blog-post-grid">
+                <img src="images/post-img-1(290_220).jpg" alt="post-image">
+                <figcaption>
+                    <h4><a href="#" class="blog-post-grid-title">Runway to Red Carpet:<br> Awards Season</a></h4>
+                    <p class="blog-post-grid-srt-desc">Her father worked on oil rigs and farms that through most of the Depression. But it is a new story that has seared into my genetic.</p>
+                    <div class="row justify-content-between">
+                        <div class="col-6">
+                            <a href="#" class="blog-post-grid-link">Learn more</a>
+                        </div>
+                        <div class="col-6">
+                            <p class="blog-post-grid-comments">
+                                <a href="#" class="blog-post-grid-comments-link fa fa-comment" aria-hidden="true"></a>
+                                <span class="blog-post-grid-comment-count">450</span>
+                            </p>
+                        </div>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <figure class="blog-post-grid">
+                <img src="images/post-img-1(290_220).jpg" alt="post-image">
+                <figcaption>
+                    <h4><a href="#" class="blog-post-grid-title">Runway to Red Carpet:<br> Awards Season</a></h4>
+                    <p class="blog-post-grid-srt-desc">Her father worked on oil rigs and farms that through most of the Depression. But it is a new story that has seared into my genetic.</p>
+                    <div class="row justify-content-between">
+                        <div class="col-6">
+                            <a href="#" class="blog-post-grid-link">Learn more</a>
+                        </div>
+                        <div class="col-6">
+                            <p class="blog-post-grid-comments">
+                                <a href="#" class="blog-post-grid-comments-link fa fa-comment" aria-hidden="true"></a>
+                                <span class="blog-post-grid-comment-count">450</span>
+                            </p>
+                        </div>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <figure class="blog-post-grid">
+                <img src="images/post-img-2(290_220).jpg" alt="post-image">
+                <figcaption>
+                    <h4><a href="#" class="blog-post-grid-title">Runway to Red Carpet:<br> Awards Season</a></h4>
+                    <p class="blog-post-grid-srt-desc">Her father worked on oil rigs and farms that through most of the Depression. But it is a new story that has seared into my genetic.</p>
+                    <div class="row justify-content-between">
+                        <div class="col-6">
+                            <a href="#" class="blog-post-grid-link">Learn more</a>
+                        </div>
+                        <div class="col-6">
+                            <p class="blog-post-grid-comments">
+                                <a href="#" class="blog-post-grid-comments-link fa fa-comment" aria-hidden="true"></a>
+                                <span class="blog-post-grid-comment-count">450</span>
+                            </p>
+                        </div>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <figure class="blog-post-grid">
+                <img src="images/post-img-1(290_220).jpg" alt="post-image">
+                <figcaption>
+                    <h4><a href="#" class="blog-post-grid-title">Runway to Red Carpet:<br> Awards Season</a></h4>
+                    <p class="blog-post-grid-srt-desc">Her father worked on oil rigs and farms that through most of the Depression. But it is a new story that has seared into my genetic.</p>
+                    <div class="row justify-content-between">
+                        <div class="col-6">
+                            <a href="#" class="blog-post-grid-link">Learn more</a>
+                        </div>
+                        <div class="col-6">
+                            <p class="blog-post-grid-comments">
+                                <a href="#" class="blog-post-grid-comments-link fa fa-comment" aria-hidden="true"></a>
+                                <span class="blog-post-grid-comment-count">450</span>
+                            </p>
+                        </div>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <figure class="blog-post-grid">
+                <img src="images/post-img-1(290_220).jpg" alt="post-image">
+                <figcaption>
+                    <h4><a href="#" class="blog-post-grid-title">Runway to Red Carpet:<br> Awards Season</a></h4>
+                    <p class="blog-post-grid-srt-desc">Her father worked on oil rigs and farms that through most of the Depression. But it is a new story that has seared into my genetic.</p>
+                    <div class="row justify-content-between">
+                        <div class="col-6">
+                            <a href="#" class="blog-post-grid-link">Learn more</a>
+                        </div>
+                        <div class="col-6">
+                            <p class="blog-post-grid-comments">
+                                <a href="#" class="blog-post-grid-comments-link fa fa-comment" aria-hidden="true"></a>
+                                <span class="blog-post-grid-comment-count">450</span>
+                            </p>
+                        </div>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <figure class="blog-post-grid">
+                <img src="images/post-img-2(290_220).jpg" alt="post-image">
+                <figcaption>
+                    <h4><a href="#" class="blog-post-grid-title">Runway to Red Carpet:<br> Awards Season</a></h4>
+                    <p class="blog-post-grid-srt-desc">Her father worked on oil rigs and farms that through most of the Depression. But it is a new story that has seared into my genetic.</p>
+                    <div class="row justify-content-between">
+                        <div class="col-6">
+                            <a href="#" class="blog-post-grid-link">Learn more</a>
+                        </div>
+                        <div class="col-6">
+                            <p class="blog-post-grid-comments">
+                                <a href="#" class="blog-post-grid-comments-link fa fa-comment" aria-hidden="true"></a>
+                                <span class="blog-post-grid-comment-count">450</span>
+                            </p>
+                        </div>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <figure class="blog-post-grid">
+                <img src="images/post-img-1(290_220).jpg" alt="post-image">
+                <figcaption>
+                    <h4><a href="#" class="blog-post-grid-title">Runway to Red Carpet:<br> Awards Season</a></h4>
+                    <p class="blog-post-grid-srt-desc">Her father worked on oil rigs and farms that through most of the Depression. But it is a new story that has seared into my genetic.</p>
+                    <div class="row justify-content-between">
+                        <div class="col-6">
+                            <a href="#" class="blog-post-grid-link">Learn more</a>
+                        </div>
+                        <div class="col-6">
+                            <p class="blog-post-grid-comments">
+                                <a href="#" class="blog-post-grid-comments-link fa fa-comment" aria-hidden="true"></a>
+                                <span class="blog-post-grid-comment-count">450</span>
+                            </p>
+                        </div>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="row">
+        <nav class="blog-grid_posts_pagination">
+            <a href="#" class="blog-grid_posts_pagination_page">1</a>
+            <a href="#" class="blog-grid_posts_pagination_page">2</a>
+            <a href="#" class="blog-grid_posts_pagination_page">3</a>
+            <a href="#" class="blog-grid_posts_pagination_page">4</a>
+            <a href="#" class="blog-grid_posts_pagination_page">5</a>
+            <a href="#" class="blog-grid_posts_pagination_page">6</a>
+            <a href="#" class="blog-grid_posts_pagination_page">7</a>
+            <a href="#" class="blog-grid_posts_pagination_page blog-grid_posts_pagination_page_continue">. . .</a>
+            <a href="#" class="blog-grid_posts_pagination_page">2015</a>
+
+        </nav>
+    </div>
+</section>
+<footer class="general-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 top-footer-line">
+                <h5 class="footer-section-title">Get in touch</h5>
+                <address class="address-in-footer">
+                    <p class="address"><i class="fa fa-flag" aria-hidden="true"></i><span>Address: </span>321 Street, Uniyed Kingdom, London</p>
+                    <p class="phone"><i class="fa fa-phone" aria-hidden="true"></i><span>Phone: </span>+7 998 7150 80 20</p>
+                    <p class="email"><i class="fa fa-envelope" aria-hidden="true"></i><span>Email: </span><a href="mailto:info@ambertheme.com">info@ambertheme.com</a></p>
+                </address>
+                <div class="google-map" id="google-map"></div>
+            </div>
+            <div class="col-lg-3 col-md-6 top-footer-line">
+                <h5 class="footer-section-title latest-tweets">Latest tweets</h5>
+                <section class="latest-tweets-content">
+                    <div class="tweet">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <p class="tweet-content">
+                            CMS Masters And Their Best Web Design Tools
+                            <span class="tweet-tags">#bestwebsitedesigntools #webdesign</span>
+                        </p>
+                        <p class="tweet-published"> - about 12 min ago</p>
+                    </div>
+                    <div class="tweet">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <p class="tweet-content">
+                            WOOCOMMERCE functionality added!!! See Industrial theme become even powerful!-
+                            <span class="tweet-tags">bit.ly/industrial-wp</span>
+                        </p>
+                        <p class="tweet-published"> - about 47 days ago</p>
+                    </div>
+                    <div class="tweet">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <p class="tweet-content">
+                            CMS Masters And Their Best Web Design Tools
+                            <span class="tweet-tags">#bestwebsitedesigntools #webdesign</span>
+                        </p>
+                        <p class="tweet-published"></p>
+                    </div>
+                </section>
+            </div>
+            <div class="col-lg-3 col-md-6 top-footer-line">
+                <h5 class="footer-section-title">Follow us</h5>
+                <nav class="footer-social-links">
+                    <a href="#" class="facebook">Like us on Facebook</a>
+                    <a href="#" class="twitter">Follow us on Twitter</a>
+                    <a href="#" class="youtube">Watch videos on YouTube</a>
+                    <a href="#" class="instagram">Friend us on Instagram</a>
+                    <a href="#" class="pinterest">Repin on pinterest</a>
+                </nav>
+            </div>
+            <div class="col-lg-3 col-md-6 top-footer-line">
+                <h5 class="footer-section-title">Popular posts</h5>
+                <div class="popular-post_block">
+                    <p class="popular-post__block_publish-date">September, 30</p>
+                    <p class="popular-post__block_content">
+                        Candy canes dragee pudding. Donut cheesecake I love chocolate icing
+                    </p>
+                </div>
+                <div class="popular-post_block">
+                    <p class="popular-post__block_publish-date">April, 22</p>
+                    <p class="popular-post__block_content">
+                        Muffin croissant cookie sesame snaps. Ice cream donut cookie gingerbread
+                    </p>
+                </div>
+                <div class="popular-post_block">
+                    <p class="popular-post__block_publish-date">May, 12</p>
+                    <p class="popular-post__block_content">
+                        Cotton candy muffin tart gummies candy danish liquorice chupa chups tootsie roll
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <section class="col-md-6">
+                <p class="copyright">&#169; 2014 StylemixThemes. All rights reserved</p>
+                <p>Powered by WordPress.</p>
+            </section>
+        </div>
+    </div>
+</footer>
+
+<button class="scroll-up" id="back-to-top">Back to top of page <span><</span></button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<!--google map-->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsOZBck8aF8KDdt3EUsWVZfoGFn-oYAXY&callback=initMap"></script>
+<script>
+    function initMap() {
+        var uluru = {lat: 51.508850, lng: -0.142728};
+        var map = new google.maps.Map(document.getElementById('google-map'), {
+            zoom: 10,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+</script>
+<!--end of google map-->
+
+<script src="javascript/scroll-up.js"></script>
+
+
+
+</body>
+</html>
