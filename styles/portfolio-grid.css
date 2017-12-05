@@ -131,18 +131,19 @@ body {
 .blog-grid-header__nav {
   margin-bottom: 50px;
   padding: 0 10px;
+  text-align: right;
 }
-/* line 54, ../sass/general-parts/_grid-header.scss */
+/* line 55, ../sass/general-parts/_grid-header.scss */
 .blog-grid-header__nav .blog-grid-header__nav_link {
   color: #c1c0c0;
   padding-left: 10px;
 }
-/* line 57, ../sass/general-parts/_grid-header.scss */
+/* line 58, ../sass/general-parts/_grid-header.scss */
 .blog-grid-header__nav .blog-grid-header__nav_link:hover {
   text-decoration: none;
   color: #ffffff;
 }
-/* line 62, ../sass/general-parts/_grid-header.scss */
+/* line 63, ../sass/general-parts/_grid-header.scss */
 .blog-grid-header__nav .blog-grid-header__nav_link ~ .blog-grid-header__nav_link:before {
   content: "/";
   color: #000000;
@@ -415,8 +416,9 @@ body {
 /* line 5, ../sass/general-parts/_header.scss */
 .top-header .search-form {
   position: relative;
+  max-width: 205px;
 }
-/* line 8, ../sass/general-parts/_header.scss */
+/* line 9, ../sass/general-parts/_header.scss */
 .top-header .search-field {
   border: 1px solid #ffffff;
   padding: 4px;
@@ -424,52 +426,53 @@ body {
   background: transparent;
   color: #ffffff;
 }
-/* line 13, ../sass/general-parts/_header.scss */
+/* line 14, ../sass/general-parts/_header.scss */
 .top-header .search-field::placeholder {
   color: #ffffff;
 }
-/* line 17, ../sass/general-parts/_header.scss */
+/* line 18, ../sass/general-parts/_header.scss */
 .top-header .search-button {
   color: #ffffff;
   border: none;
-  position: relative;
-  left: -32px;
+  position: absolute;
+  right: 0;
+  top: 4px;
   outline: none;
   background: transparent;
   cursor: pointer;
 }
 
-/* line 26, ../sass/general-parts/_header.scss */
+/* line 28, ../sass/general-parts/_header.scss */
 .users-nav {
   justify-content: flex-end;
 }
 
-/* line 29, ../sass/general-parts/_header.scss */
+/* line 31, ../sass/general-parts/_header.scss */
 .users-nav-link {
   color: #ffffff;
 }
-/* line 31, ../sass/general-parts/_header.scss */
+/* line 33, ../sass/general-parts/_header.scss */
 .users-nav-link:before {
   margin-right: 10px;
   position: relative;
 }
-/* line 35, ../sass/general-parts/_header.scss */
+/* line 37, ../sass/general-parts/_header.scss */
 .users-nav-link:hover {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 38, ../sass/general-parts/_header.scss */
+/* line 40, ../sass/general-parts/_header.scss */
 .users-nav-link:hover:before {
   top: -5px;
 }
 
-/* line 43, ../sass/general-parts/_header.scss */
+/* line 45, ../sass/general-parts/_header.scss */
 .bottom-header {
   background: #474747;
   padding: 10px 0;
 }
 
-/* line 47, ../sass/general-parts/_header.scss */
+/* line 49, ../sass/general-parts/_header.scss */
 .main-logo {
   background: url("../images/logo.jpg");
   width: 132px;
@@ -480,17 +483,17 @@ body {
   position: relative;
 }
 
-/* line 56, ../sass/general-parts/_header.scss */
+/* line 58, ../sass/general-parts/_header.scss */
 .sandwich-icon {
   outline: none;
   border: none;
   margin-left: auto;
 }
-/* line 60, ../sass/general-parts/_header.scss */
+/* line 62, ../sass/general-parts/_header.scss */
 .sandwich-icon:focus {
   outline: none;
 }
-/* line 63, ../sass/general-parts/_header.scss */
+/* line 65, ../sass/general-parts/_header.scss */
 .sandwich-icon span {
   display: inline-block;
   width: 30px;
@@ -498,7 +501,7 @@ body {
   background: #ffffff;
   position: relative;
 }
-/* line 69, ../sass/general-parts/_header.scss */
+/* line 71, ../sass/general-parts/_header.scss */
 .sandwich-icon span:before, .sandwich-icon span:after {
   position: absolute;
   width: 100%;
@@ -507,16 +510,16 @@ body {
   height: 2px;
   left: 0;
 }
-/* line 77, ../sass/general-parts/_header.scss */
+/* line 79, ../sass/general-parts/_header.scss */
 .sandwich-icon span:before {
   top: -10px;
 }
-/* line 80, ../sass/general-parts/_header.scss */
+/* line 82, ../sass/general-parts/_header.scss */
 .sandwich-icon span:after {
   bottom: -10px;
 }
 
-/* line 85, ../sass/general-parts/_header.scss */
+/* line 87, ../sass/general-parts/_header.scss */
 .menu-item {
   color: #ffffff;
   text-transform: uppercase;
@@ -524,12 +527,12 @@ body {
   padding: 0 10px;
   text-align: center;
 }
-/* line 91, ../sass/general-parts/_header.scss */
+/* line 93, ../sass/general-parts/_header.scss */
 .menu-item:hover {
   color: #ffffff;
   text-decoration: none;
 }
-/* line 95, ../sass/general-parts/_header.scss */
+/* line 97, ../sass/general-parts/_header.scss */
 .menu-item:before {
   content: "";
   height: 8px;
@@ -540,33 +543,39 @@ body {
   position: absolute;
   transition: top 0.8s;
 }
-/* line 105, ../sass/general-parts/_header.scss */
+/* line 107, ../sass/general-parts/_header.scss */
 .menu-item:hover:before {
   top: 36px;
 }
-/* line 108, ../sass/general-parts/_header.scss */
+/* line 110, ../sass/general-parts/_header.scss */
 .menu-item:nth-child(2):before {
   background: #fc7100;
 }
-/* line 111, ../sass/general-parts/_header.scss */
+/* line 113, ../sass/general-parts/_header.scss */
 .menu-item:nth-child(3):before {
   background: #e51c5e;
 }
-/* line 114, ../sass/general-parts/_header.scss */
+/* line 116, ../sass/general-parts/_header.scss */
 .menu-item:nth-child(4):before {
   background: #ae0f8d;
 }
-/* line 117, ../sass/general-parts/_header.scss */
+/* line 119, ../sass/general-parts/_header.scss */
 .menu-item:nth-child(5):before {
   background: #6d0fae;
 }
-/* line 120, ../sass/general-parts/_header.scss */
+/* line 122, ../sass/general-parts/_header.scss */
 .menu-item:nth-child(6):before {
   background: #33227a;
 }
-/* line 123, ../sass/general-parts/_header.scss */
+/* line 125, ../sass/general-parts/_header.scss */
 .menu-item:nth-child(7):before {
   background: #0c8fcc;
+}
+
+/* line 130, ../sass/general-parts/_header.scss */
+.cart-link {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* line 1, ../sass/general-parts/_buttons.scss */
@@ -768,19 +777,18 @@ body {
   padding: 10px 0;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   /* line 2, ../sass/responsive/_responsive.scss */
   .counters:before {
     display: none;
   }
-}
-@media screen and (max-width: 960px) {
-  /* line 8, ../sass/responsive/_responsive.scss */
+
+  /* line 5, ../sass/responsive/_responsive.scss */
   .menu-item {
     text-align: right;
     margin-top: 4px;
   }
-  /* line 11, ../sass/responsive/_responsive.scss */
+  /* line 8, ../sass/responsive/_responsive.scss */
   .menu-item:before {
     height: 100%;
     width: 4px;
@@ -788,20 +796,29 @@ body {
     left: 100%;
     top: 0;
   }
-  /* line 18, ../sass/responsive/_responsive.scss */
+  /* line 15, ../sass/responsive/_responsive.scss */
   .menu-item:hover:before {
     top: 0;
   }
 }
-@media (max-width: 576px) {
+@media screen and (max-width: 768px) {
   /* line 25, ../sass/responsive/_responsive.scss */
-  .search-form {
+  .blog-grid-header__title, .blog-grid-header__statistic, .blog-grid-header__nav {
     text-align: center;
-    right: -18px;
+  }
+}
+@media (max-width: 576px) {
+  /* line 30, ../sass/responsive/_responsive.scss */
+  .search-form {
     margin: 0 auto;
   }
 
-  /* line 30, ../sass/responsive/_responsive.scss */
+  /* line 33, ../sass/responsive/_responsive.scss */
+  .top-header__form-links {
+    display: block;
+  }
+
+  /* line 36, ../sass/responsive/_responsive.scss */
   .users-nav {
     justify-content: center;
     flex-direction: column;
@@ -809,29 +826,35 @@ body {
     align-items: center;
   }
 
-  /* line 36, ../sass/responsive/_responsive.scss */
+  /* line 42, ../sass/responsive/_responsive.scss */
   .align-form {
     display: flex;
     justify-content: center;
   }
 
-  /* line 40, ../sass/responsive/_responsive.scss */
+  /* line 46, ../sass/responsive/_responsive.scss */
   .carousel-content-wrap .carousel-content {
     font-size: 30px;
   }
 
-  /* line 43, ../sass/responsive/_responsive.scss */
+  /* line 49, ../sass/responsive/_responsive.scss */
   .slice-three .button {
     margin-top: 10px;
   }
 
-  /* line 46, ../sass/responsive/_responsive.scss */
+  /* line 52, ../sass/responsive/_responsive.scss */
   .slice-four-content {
     padding-left: 20px;
   }
-  /* line 48, ../sass/responsive/_responsive.scss */
+  /* line 54, ../sass/responsive/_responsive.scss */
   .slice-four-content i {
     top: -40px;
     left: 50%;
+  }
+
+  /* line 59, ../sass/responsive/_responsive.scss */
+  .scroll-up {
+    bottom: 20px;
+    right: 20px;
   }
 }
