@@ -399,8 +399,8 @@ body {
   color: #ffffff;
   border: none;
   position: absolute;
-  right: 0;
-  top: 4px;
+  right: 3px;
+  top: 7px;
   outline: none;
   background: transparent;
   cursor: pointer;
@@ -750,7 +750,7 @@ body {
   /* line 5, ../sass/responsive/_responsive.scss */
   .menu-item {
     text-align: right;
-    margin-top: 4px;
+    margin-top: 10px;
   }
   /* line 8, ../sass/responsive/_responsive.scss */
   .menu-item:before {
